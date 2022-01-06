@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+.parent-btn-container{
+    text-align: center;
+}
+
+.random-words-cnt{
+    margin-top:25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*
+.carrousel-ctn{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(black,white,black);
+    text-align: center;
+    animation-name: ani;
+    animation-duration: 4s;
+}
+
+@keyframes ani {
+    0%{background-image: linear-gradient(black, white, black);}
+    25%{ background-image: linear-gradient(white, black, white);}
+    50%{ background-image: linear-gradient(black, white, black);}
+    75%{ background-image: linear-gradient(white, black, white);}
+    100%{background-image: linear-gradient(black, white, black);}
+    
+}
+*/

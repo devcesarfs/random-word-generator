@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meat charset="utf-=8" />
+    <title>Random Word Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module">
+        import { generateRandomWords, runCarrousel } from './app.js';
+        window.generateRandomWords = generateRandomWords;
+        window.runCarrousel = runCarrousel;
+    </script>
+</head>
+
+<body>
+    <h1>Random Word Generator</h1>
+    <div>
+        <p>
+            Need ideas on what to draw or write! Simply press the Generate Button and three random
+            words will be generated. Don't like the words, press the button again, the combinations are endless.
+        </p>
+    </div>
+    <div class="parent-btn-container">
+        <button class="btn" id="generate-btn" type="button" style="cursor: pointer"
+            onclick="generateRandomWords()">Generate</button>
+    </div>
+    <div class="random-words-cnt">
+        <div class="random-word-result" id="random-word-1"></div>
+        <div class="random-word-result" id="random-word-2"></div>
+        <div class="random-word-result" id="random-word-3"></div>
+    </div>
+
+</body>
+
+</html>

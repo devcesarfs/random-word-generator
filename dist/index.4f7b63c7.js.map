@@ -1,0 +1,1 @@
+{"mappings":"SAAS,mBAAmB,GAAE,CAAC;IAC3B,OAAO,CAAC,GAAG,CAAC,CAAY;AAC5B,CAAC","sources":["source/app.js"],"sourcesContent":["function generateRandomWords(){\n    console.log(\"This works\");\n}"],"names":[],"version":3,"file":"index.4f7b63c7.js.map","sourceRoot":"/__parcel_source_root/"}
