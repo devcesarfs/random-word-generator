@@ -1,27 +1,111 @@
-body{
-    /*
-    margin: 30px;
-    padding: 10px;
-    */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 h1 {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     font-size: 48px;
-    /*margin-top: 79px;*/
+    margin-top: 80px;
+    color: #000000;
+    line-height: 60px;
+    letter-spacing: -0.022em;
+
 }
 
 .description-container {
     font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: normal;
     font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    letter-spacing: -0.022em;
+    color: #050505;
 }
 
 .description-card {
-    border-style:none;
-    border-width: 2px;
-    border-radius: 21px;
     background-color: #F3E5E5;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
 
+.random-words-cnt {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+
+/*
+#random-word-1{
+
+    width: 253px;
+    height: 296px;
+
+    background: #CACACA;
+    box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    transform: rotate(-30deg);
+}
+
+#random-word-2{
+
+    width: 253px;
+    height: 296px;
+
+    background: #CACACA;
+    box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    transform: rotate(-30deg);
+}
+
+#random-word-3{
+
+    width: 253px;
+    height: 296px;
+
+    background: #CACACA;
+    box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    transform: rotate(-30deg);
+}
+*/
+
+/*
+.random-word-result-rotated {
+    width: 253px;
+    height: 296px;
+    background: #CACACA;
+    box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    transform: rotate(-30deg);
+}
+*/
+.random-word-result {
+    width: 253px;
+    height: 296px;
+    background: #F3E5E5;
+    box-shadow: 4px 4px 10px rgba(128, 76, 76, 0.5);
+    border-radius: 30px;
+    transform: rotate(-0.19deg);
+
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.022em;
+    
+    color: #000000;
+}
+
+.random-word-result > span {
+    text-align: center;
+    width: 100%;
 }
 /*# sourceMappingURL=index.bf7c2551.css.map */
