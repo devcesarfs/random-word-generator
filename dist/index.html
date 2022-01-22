@@ -1160,11 +1160,11 @@ exports.export = function(dest, destName, get) {
         </p>
     </div>
     <div class="random-words-cnt">
-        <!--
-        <div class="random-word-result-rotated" id="random-word-1"></div>
-        <div class="random-word-result-rotated" ></div>
-        <div class="random-word-result-rotated" id="random-word-3"></div>
-        -->
+        <div class="rotated-card-cnt">
+            <div class="random-word-result-rotated"></div>
+            <div class="random-word-result-rotated"></div>
+            <div class="random-word-result-rotated"></div>
+        </div>
         <div class="random-word-result">
             <span id="random-word-1"></span>
         </div>
@@ -1176,7 +1176,7 @@ exports.export = function(dest, destName, get) {
         </div>
     </div>
     <div class="parent-btn-container">
-        <button class="btn" id="generate-btn" type="button" style="cursor: pointer" onclick="generateRandomWords()">Generate</button>
+        <button class="btn" id="generate-btn" type="button" onclick="generateRandomWords()">Generate</button>
     </div>
 
 </body>
