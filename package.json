@@ -2,7 +2,7 @@
   "name": "random-word-generator",
   "version": "1.0.0",
   "description": "Displays Random Word",
-  "main": "index.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.6.0",
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "path-browserify": "^1.0.1"
+  },
+  "alias": {
+    "process":{
+      "global": "process"
+    }
   }
 }

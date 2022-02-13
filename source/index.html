@@ -3,6 +3,7 @@
 
 <head>
     <meat charset="utf-=8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Word Generator</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Press+Start+2P&display=swap" rel="stylesheet">
     <script type="module">
-        import { generateRandomWords, runCarrousel } from './app.js';
+        import { generateRandomWords} from './app.js';
         window.generateRandomWords = generateRandomWords;
         window.runCarrousel = runCarrousel;
     </script>
@@ -20,7 +21,7 @@
     <h1>RANDOM WORD GENERATOR</h1>
     <div class="description-card">
         <p class="description-container">
-            Need ideas on what to draw or write! Simply press the Generate Button and three random
+            Need ideas on what to draw? Simply press the "Generate" button and three random
             words will be generated. Don't like the words, press the button again, the combinations are endless.
         </p>
     </div>
@@ -30,20 +31,21 @@
             <div class="random-word-result-rotated"></div>
             <div class="random-word-result-rotated"></div>
         </div>
-        <div class="random-word-result">
-            <span id="random-word-1"></span>
-        </div>
-        <div class="random-word-result">
-            <span id="random-word-2"></span>
-        </div>
-        <div class="random-word-result">
-            <span id="random-word-3"></span>
+        <div class="random-words-result-cnt">
+            <div class="random-word-result">
+                <span id="random-word-1"></span>
+            </div>
+            <div class="random-word-result">
+                <span id="random-word-2"></span>
+            </div>
+            <div class="random-word-result">
+                <span id="random-word-3"></span>
+            </div>
         </div>
     </div>
     <div class="parent-btn-container">
         <button class="btn" id="generate-btn" type="button" onclick="generateRandomWords()">Generate</button>
     </div>
-
 </body>
 
 </html>
